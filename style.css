@@ -44,18 +44,6 @@ p{
 
 }
 
-@media (max-width: 768px) {
-    .center{
-        width: 80%;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .center{
-        width: 50%;
-    }
-}
-
 .attribution {
     position: fixed;
     left: 0;
@@ -75,4 +63,22 @@ a{
 
 a:visited{
     color: blue;
+}
+
+@media (max-width: 768px) {
+    .attribution {
+    display: none;
+    }
+    .center{
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .center{
+        width: 50%;
+    }
+    .attribution {
+    display: none;
+    }
 }
