@@ -1,2 +1,2 @@
 # quick-qr-code
-https://github.com/Schismond/quick-qr-code/
+https://schismond.github.io/quick-qr-code/
